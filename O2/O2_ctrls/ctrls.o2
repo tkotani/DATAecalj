@@ -1,0 +1,5 @@
+% const disexp=2.282 a=25.0 dis=0.0  dd=(disexp+dis)/a/sqrt(3.0)
+% const pwemax=4 nk=1 da=0
+STRUC   ALAT={a} DALAT={da} PLAT= 0 .5 .5   .5 0 .5    .5 .5 0
+SITE    ATOM=O POS=-.5*{dd} -.5*{dd} -.5*{dd} 
+        ATOM=O POS=.5*{dd} .5*{dd} .5*{dd} 

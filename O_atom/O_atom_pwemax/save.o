@@ -1,0 +1,32 @@
+c pwemax=4 mmom=2 ehf=-149.1646041 ehk=-149.1646041 symmetric
+c pwemax=2 mmom=2 ehf=-149.1534561 ehk=-149.1534561 symmetric
+
+h mmom=2 ehf=-149.1548643 ehk=-149.1539904
+i mmom=2.0000001 ehf=-152.0556418 ehk=-149.141342
+i mmom=2 ehf=-149.1744693 ehk=-149.1462505
+i mmom=2 ehf=-149.1687187 ehk=-149.1549888
+i mmom=2 ehf=-149.1631478 ehk=-149.1616915
+i mmom=2 ehf=-149.1623114 ehk=-149.1623154
+i mmom=2 ehf=-149.1623132 ehk=-149.1623131
+c mmom=2 ehf=-149.1623128 ehk=-149.1623128
+i pwemax=2 mmom=2 ehf=-149.1623127 ehk=-149.1623126 (deformed cell)
+c pwemax=2 mmom=2 ehf=-149.1623127 ehk=-149.1623127 (deformed cell)
+
+i pwemax=2 mmom=2 ehf=-151.5290903 ehk=-149.1356098
+i pwemax=2 mmom=2 ehf=-149.1782506 ehk=-149.1362988
+i pwemax=2 mmom=2.0000001 ehf=-149.1600864 ehk=-149.1537483
+i pwemax=2 mmom=2 ehf=-149.1579916 ehk=-149.1563813
+i pwemax=2 mmom=2.0000002 ehf=-149.1605904 ehk=-149.1604913
+i pwemax=2 mmom=2 ehf=-149.1612504 ehk=-149.1611053
+i pwemax=2 mmom=2 ehf=-149.1611469 ehk=-149.1611251
+i pwemax=2 mmom=2 ehf=-149.1611411 ehk=-149.1611399
+i pwemax=2 mmom=2 ehf=-149.1611398 ehk=-149.1611378
+i pwemax=2 mmom=2 ehf=-149.1611383 ehk=-149.1611371
+c pwemax=2 mmom=2 ehf=-149.1611379 ehk=-149.1611378
+
+i pwemax=4 mmom=2 ehf=-149.1722949 ehk=-149.1722646
+i pwemax=4 mmom=2 ehf=-149.1722953 ehk=-149.1722646
+i pwemax=4 mmom=2 ehf=-149.1723691 ehk=-149.172256
+i pwemax=4 mmom=2 ehf=-149.1723835 ehk=-149.1722127
+i pwemax=4 mmom=2 ehf=-149.1723127 ehk=-149.1723114
+c pwemax=4 mmom=2 ehf=-149.1723127 ehk=-149.1723127

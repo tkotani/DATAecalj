@@ -1,0 +1,2 @@
+# for give rmt.tmp and ctrls.o2, we do ctrlgen.py o2 --readrmt
+ctrlgen.py o2 --readrmt

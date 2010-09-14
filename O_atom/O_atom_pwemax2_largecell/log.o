@@ -1,0 +1,538 @@
+  LMFA  vn 7.00(LMFA 7.0)  verb 35
+ pot:      spin-pol, XC:CA
+fa  Pl  2.5 2.5 3.5 4.5 5.5  Ql  1 3 0 0 0
+fa  Pl2 2.5 2.5 3.5 4.5 5.5  Ql2 1 1 0 0 0
+fa op 0  11  0.842 -1.335  stf  3192   137  ev -1.83447 -1.83479  pq  2.80  1.00
+fa op 0   7  0.667 -0.861  stf  3192   416  ev -1.81662 -1.83479  pq  2.80  1.00
+fa op 1  12  0.639 -0.285  stf  8576   602  ev -0.75163 -0.76193  pq  2.79  3.00
+fa op sumev   -4.12059   opt basis   -4.07151   err  0.04908
+fa op 0  10  0.847 -1.167  stf  2880   165  ev -1.60570 -1.60604  pq  2.79  1.00
+fa op 0   6  0.667 -0.754  stf  2880   501  ev -1.58815 -1.60604  pq  2.79  1.00
+fa op 1  11  0.651 -0.179  stf  7669  1003  ev -0.53143 -0.54376  pq  2.78  1.00
+fa op sumev   -2.14980   opt basis   -2.11958   err  0.03021
+fa Z   8.0   rm  24.61  qc  2.00  qspl 0.00016  dq 0.00000  Etot    -149.166431
+  LMF  vn 7.00(LMF 7.0)  verb 35
+ special:  APW basis
+ pot:      spin-pol, XC:CA
+ bz:       metal(3), invit 
+bz  nq 1 ( 1 1 1 )  shift  F F F
+dm  L 32 ( 16 16 )  I 0 ( 0 0 )  H 18 ( 9 9 )  N 0
+ov qvl   6.000000  sm   6.271232  loc  -0.271232   bg   0.000000 mm   2.000000
+fp qvl   6.004095  sm   6.275327  loc  -0.271232  qbg   0.000000 dQ   0.004095
+fp mag    2.00000  sm    2.03355  loc   -0.03355
+fp pot  rvxc       -20.6858156  rexc       -15.6884743  rves    -282.1806605
+fp pot  rex        -14.4742328  rec         -1.2142414
+fp pot  rvvxcv      -8.4994820  rvexcv      -6.4768390
+fp pot  rvexv       -3.5871059  rvecv       -0.5369961
+fp evl
+fp evl
+nv nkp    1  ebot   0.3262   qval    6.0000  qbg  0.0000  smr -1.0010
+bz met T  tet F  ef 1.610934  sev 6.673079  zval 6.0 qval 6.0 amom 2.0
+fp evl  0.3262  1.3937  1.3937  1.3937  2.1299  2.1623  2.1802  2.1827
+fp evl  2.1839
+fp evl  0.5542  1.6116  1.6116  1.6116  2.1322  2.1672  2.1810  2.1836
+fp evl  2.1847
+nv nkp    1  ebot   0.3262   qval    6.0000  qbg  0.0000  smr -1.0010
+bz met T  tet F  ef 1.610934  sev 6.673079  zval 6.0 qval 6.0 amom 2.0
+fp Har: U    -282.180661  T     148.709709  sev      6.673079  EH    -149.159426
+fp qvl   6.000000  sm   6.184817  loc  -0.184817  qbg   0.000000 dQ   0.000000
+fp mag    2.00000  sm    1.87835  loc    0.12165
+fp pot  rvxc       -20.6464731  rexc       -15.6587649  rves    -281.8584859
+fp pot  rex        -14.4460807  rec         -1.2126842
+fp pot  rvvxcv      -8.4733609  rvexcv      -6.4570777
+fp pot  rvexv       -3.5433188  rvecv       -0.5391392
+fp KS: U    -281.8584859 T     148.3622667 Exc    -15.6587649 EKS   -149.1549841
+fp 4g  ;Anderson n 0 beta 1  sm-dq 0.00105  mx loc 0.0365  dq 7.4e-4
+fp qvl   6.000000  sm   6.184817  loc  -0.184817  qbg   0.000000 dQ   0.000000
+fp mag    2.00000  sm    1.87835  loc    0.12165
+fp pot  rvxc       -20.6464731  rexc       -15.6587649  rves    -281.8584859
+fp pot  rex        -14.4460807  rec         -1.2126842
+fp pot  rvvxcv      -8.4733609  rvexcv      -6.4570777
+fp pot  rvexv       -3.5433188  rvecv       -0.5391392
+fp evl
+fp evl
+nv nkp    1  ebot   0.3288   qval    6.0000  qbg  0.0000  smr -1.0010
+bz met T  tet F  ef 1.613810  sev 6.687590  zval 6.0 qval 6.0 amom 2.0
+fp evl  0.3288  1.3958  1.3961  1.3963  2.1538  2.1859  2.2059  2.2083
+fp evl  2.2097
+fp evl  0.5561  1.6145  1.6145  1.6145  2.1570  2.1906  2.2069  2.2094
+fp evl  2.2108
+nv nkp    1  ebot   0.3288   qval    6.0000  qbg  0.0000  smr -1.0010
+bz met T  tet F  ef 1.613810  sev 6.687590  zval 6.0 qval 6.0 amom 2.0
+fp Har: U    -281.858486  T     148.362499  sev      6.687590  EH    -149.154752
+fp qvl   6.000000  sm   6.074178  loc  -0.074178  qbg   0.000000 dQ   0.000000
+fp mag    2.00000  sm    1.87102  loc    0.12898
+fp pot  rvxc       -20.7029890  rexc       -15.7014352  rves    -282.4651693
+fp pot  rex        -14.4869574  rec         -1.2144777
+fp pot  rvvxcv      -8.5054220  rvexcv      -6.4813430
+fp pot  rvexv       -3.6519393  rvecv       -0.5483062
+fp KS: U    -282.4651693 T     149.0121998 Exc    -15.7014352 EKS   -149.1544046
+fp 4g  ;Anderson n 1 beta 1  sm-dq 3.97e-4  mx loc 0.0186  dq 2.82e-4
+fp qvl   6.000000  sm   6.070245  loc  -0.070245  qbg   0.000000 dQ   0.000000
+fp mag    2.00000  sm    1.87076  loc    0.12924
+fp pot  rvxc       -20.7049531  rexc       -15.7029182  rves    -282.4857159
+fp pot  rex        -14.4883768  rec         -1.2145414
+fp pot  rvvxcv      -8.5065724  rvexcv      -6.4822137
+fp pot  rvexv       -3.6557768  rvecv       -0.5486318
+fp evl
+fp evl
+nv nkp    1  ebot   0.3349   qval    6.0000  qbg  0.0000  smr -1.0010
+bz met T  tet F  ef 1.618759  sev 6.722770  zval 6.0 qval 6.0 amom 2.0
+  LMFA  vn 7.00(LMFA 7.0)  verb 35
+ pot:      spin-pol, XC:CA
+fa  Pl  2.5 2.5 3.5 4.5 5.5  Ql  1 3 0 0 0
+fa  Pl2 2.5 2.5 3.5 4.5 5.5  Ql2 1 1 0 0 0
+fa op 0  11  0.842 -1.335  stf  3192   137  ev -1.83447 -1.83479  pq  2.80  1.00
+fa op 0   7  0.667 -0.861  stf  3192   416  ev -1.81662 -1.83479  pq  2.80  1.00
+fa op 1  12  0.639 -0.285  stf  8576   602  ev -0.75163 -0.76193  pq  2.79  3.00
+fa op sumev   -4.12059   opt basis   -4.07151   err  0.04908
+fa op 0  10  0.847 -1.167  stf  2880   165  ev -1.60570 -1.60604  pq  2.79  1.00
+fa op 0   6  0.667 -0.754  stf  2880   501  ev -1.58815 -1.60604  pq  2.79  1.00
+fa op 1  11  0.651 -0.179  stf  7669  1003  ev -0.53143 -0.54376  pq  2.78  1.00
+fa op sumev   -2.14980   opt basis   -2.11958   err  0.03021
+fa Z   8.0   rm  24.61  qc  2.00  qspl 0.00016  dq 0.00000  Etot    -149.166431
+  LMF  vn 7.00(LMF 7.0)  verb 35
+ special:  APW basis
+ pot:      spin-pol, XC:CA
+ bz:       metal(3), invit 
+bz  nq 1 ( 1 1 1 )  shift  F F F
+dm  L 32 ( 16 16 )  I 0 ( 0 0 )  H 18 ( 9 9 )  N 0
+ov qvl   6.000000  sm   6.271232  loc  -0.271232   bg   0.000000 mm   2.000000
+fp qvl   6.003993  sm   6.275225  loc  -0.271232  qbg   0.000000 dQ   0.003993
+fp mag    2.00000  sm    2.03355  loc   -0.03355
+fp pot  rvxc       -20.6858154  rexc       -15.6884741  rves    -282.1807709
+fp pot  rex        -14.4742329  rec         -1.2142412
+fp pot  rvvxcv      -8.4994818  rvexcv      -6.4768388
+fp pot  rvexv       -3.5871059  rvecv       -0.5369960
+fp evl
+fp evl
+nv nkp    1  ebot   0.3263   qval    6.0000  qbg  0.0000  smr -1.0010
+bz met T  tet F  ef 1.610994  sev 6.673627  zval 6.0 qval 6.0 amom 2.0
+fp evl  0.3263  1.3937  1.3938  1.3938  2.1296  2.1632  2.1789  2.1844
+fp evl  2.1845
+fp evl  0.5543  1.6117  1.6117  1.6117  2.1319  2.1680  2.1796  2.1847
+fp evl  2.1855
+nv nkp    1  ebot   0.3263   qval    6.0000  qbg  0.0000  smr -1.0010
+bz met T  tet F  ef 1.610994  sev 6.673627  zval 6.0 qval 6.0 amom 2.0
+fp Har: U    -282.180771  T     148.710232  sev      6.673627  EH    -149.159013
+fp qvl   6.000000  sm   6.185954  loc  -0.185954  qbg   0.000000 dQ   0.000000
+fp mag    2.00000  sm    1.87854  loc    0.12146
+fp pot  rvxc       -20.6456895  rexc       -15.6581708  rves    -281.8577973
+fp pot  rex        -14.4455336  rec         -1.2126373
+fp pot  rvvxcv      -8.4725524  rvexcv      -6.4564649
+fp pot  rvexv       -3.5419996  rvecv       -0.5390253
+fp KS: U    -281.8577973 T     148.3612884 Exc    -15.6581708 EKS   -149.1546798
+fp 4g  ;Anderson n 0 beta 1  sm-dq 0.00107  mx loc 0.0364  dq 7.74e-4
+fp qvl   6.000000  sm   6.185954  loc  -0.185954  qbg   0.000000 dQ   0.000000
+fp mag    2.00000  sm    1.87854  loc    0.12146
+fp pot  rvxc       -20.6456895  rexc       -15.6581708  rves    -281.8577973
+fp pot  rex        -14.4455336  rec         -1.2126373
+fp pot  rvvxcv      -8.4725524  rvexcv      -6.4564649
+fp pot  rvexv       -3.5419996  rvecv       -0.5390253
+fp evl
+fp evl
+nv nkp    1  ebot   0.3292   qval    6.0000  qbg  0.0000  smr -1.0010
+bz met T  tet F  ef 1.614054  sev 6.689229  zval 6.0 qval 6.0 amom 2.0
+fp evl  0.3292  1.3951  1.3966  1.3971  2.1540  2.1874  2.2054  2.2106
+fp evl  2.2116
+fp evl  0.5565  1.6146  1.6147  1.6149  2.1573  2.1921  2.2063  2.2118
+fp evl  2.2119
+nv nkp    1  ebot   0.3292   qval    6.0000  qbg  0.0000  smr -1.0010
+bz met T  tet F  ef 1.614054  sev 6.689229  zval 6.0 qval 6.0 amom 2.0
+fp Har: U    -281.857797  T     148.361588  sev      6.689229  EH    -149.154380
+fp qvl   6.000000  sm   6.075676  loc  -0.075676  qbg   0.000000 dQ   0.000000
+fp mag    2.00000  sm    1.87122  loc    0.12878
+fp pot  rvxc       -20.7032736  rexc       -15.7016448  rves    -282.4688257
+fp pot  rex        -14.4870864  rec         -1.2145584
+fp pot  rvvxcv      -8.5055721  rvexcv      -6.4814507
+fp pot  rvexv       -3.6506371  rvecv       -0.5482880
+fp KS: U    -282.4688257 T     149.0164356 Exc    -15.7016448 EKS   -149.1540348
+fp 4g  ;Anderson n 1 beta 1  sm-dq 4.07e-4  mx loc 0.0185  dq 2.95e-4
+fp qvl   6.000000  sm   6.071938  loc  -0.071938  qbg   0.000000 dQ   0.000000
+fp mag    2.00000  sm    1.87097  loc    0.12903
+fp pot  rvxc       -20.7051872  rexc       -15.7030895  rves    -282.4885622
+fp pot  rex        -14.4884642  rec         -1.2146254
+fp pot  rvvxcv      -8.5067066  rvexcv      -6.4823091
+fp pot  rvexv       -3.6542970  rvecv       -0.5486039
+fp evl
+fp evl
+nv nkp    1  ebot   0.3352   qval    6.0000  qbg  0.0000  smr -1.0010
+bz met T  tet F  ef 1.618930  sev 6.724042  zval 6.0 qval 6.0 amom 2.0
+fp evl  0.3352  1.3973  1.4038  1.4060  2.1416  2.1751  2.1922  2.1976
+fp evl  2.1981
+fp evl  0.5622  1.6192  1.6195  1.6204  2.1445  2.1798  2.1931  2.1984
+fp evl  2.1987
+nv nkp    1  ebot   0.3352   qval    6.0000  qbg  0.0000  smr -1.0010
+bz met T  tet F  ef 1.618930  sev 6.724042  zval 6.0 qval 6.0 amom 2.0
+fp Har: U    -282.488562  T     149.036951  sev      6.724042  EH    -149.154701
+fp qvl   6.000000  sm   6.074244  loc  -0.074244  qbg   0.000000 dQ   0.000000
+fp mag    2.00000  sm    1.87276  loc    0.12724
+fp pot  rvxc       -20.6492199  rexc       -15.6606786  rves    -282.1233152
+fp pot  rex        -14.4471279  rec         -1.2135507
+fp pot  rvvxcv      -8.4637444  rvexcv      -6.4496823
+fp pot  rvexv       -3.6320078  rvecv       -0.5484526
+fp KS: U    -282.1233152 T     148.6295406 Exc    -15.6606786 EKS   -149.1544532
+fp 4g  ;Anderson n 2 beta 1  sm-dq 1.86e-4  mx loc 5.13e-4  dq 2.13e-5
+fp qvl   6.000000  sm   6.073865  loc  -0.073865  qbg   0.000000 dQ   0.000000
+fp mag    2.00000  sm    1.87271  loc    0.12729
+fp pot  rvxc       -20.6503255  rexc       -15.6615172  rves    -282.1307979
+fp pot  rex        -14.4479562  rec         -1.2135610
+fp pot  rvvxcv      -8.4645903  rvexcv      -6.4503255
+fp pot  rvexv       -3.6327435  rvecv       -0.5484670
+fp evl
+fp evl
+nv nkp    1  ebot   0.3370   qval    6.0000  qbg  0.0000  smr -1.0010
+bz met T  tet F  ef 1.622297  sev 6.737764  zval 6.0 qval 6.0 amom 2.0
+fp evl  0.3370  1.3851  1.4096  1.4187  2.1679  2.2014  2.2193  2.2246
+fp evl  2.2254
+fp evl  0.5651  1.6219  1.6228  1.6268  2.1712  2.2061  2.2202  2.2257
+fp evl  2.2257
+nv nkp    1  ebot   0.3370   qval    6.0000  qbg  0.0000  smr -1.0010
+bz met T  tet F  ef 1.622297  sev 6.737764  zval 6.0 qval 6.0 amom 2.0
+fp Har: U    -282.130798  T     148.636486  sev      6.737764  EH    -149.155829
+fp qvl   6.000000  sm   6.075708  loc  -0.075708  qbg   0.000000 dQ   0.000000
+fp mag    2.00000  sm    1.87131  loc    0.12869
+fp pot  rvxc       -20.7323781  rexc       -15.7232160  rves    -282.4728799
+fp pot  rex        -14.4994327  rec         -1.2237833
+fp pot  rvvxcv      -8.5373371  rvexcv      -6.5049565
+fp pot  rvexv       -3.6538152  rvecv       -0.5584183
+fp KS: U    -282.4728799 T     149.0398564 Exc    -15.7232160 EKS   -149.1562395
+fp 4g  ;Anderson n 3 beta 1  sm-dq 3.19e-4  mx loc 4.52e-4  dq 2.4e-5
+fp qvl   6.000000  sm   6.074997  loc  -0.074997  qbg   0.000000 dQ   0.000000
+fp mag    2.00000  sm    1.87205  loc    0.12795
+fp pot  rvxc       -20.6882378  rexc       -15.6900622  rves    -282.3086789
+fp pot  rex        -14.4724744  rec         -1.2175877
+fp pot  rvvxcv      -8.4970903  rvexcv      -6.4747746
+fp pot  rvexv       -3.6426431  rvecv       -0.5522020
+fp evl
+fp evl
+nv nkp    1  ebot   0.3356   qval    6.0000  qbg  0.0000  smr -1.0010
+bz met T  tet F  ef 1.619930  sev 6.729006  zval 6.0 qval 6.0 amom 2.0
+fp evl  0.3356  1.3724  1.4088  1.4278  2.1528  2.1863  2.2037  2.2091
+fp evl  2.2097
+fp evl  0.5647  1.6191  1.6207  1.6281  2.1559  2.1911  2.2046  2.2100
+fp evl  2.2102
+nv nkp    1  ebot   0.3356   qval    6.0000  qbg  0.0000  smr -1.0010
+bz met T  tet F  ef 1.619930  sev 6.729006  zval 6.0 qval 6.0 amom 2.0
+fp Har: U    -282.308679  T     148.842114  sev      6.729006  EH    -149.156627
+fp qvl   6.000000  sm   6.074751  loc  -0.074751  qbg   0.000000 dQ   0.000000
+fp mag    2.00000  sm    1.87218  loc    0.12782
+fp pot  rvxc       -20.7020502  rexc       -15.7001244  rves    -282.2768869
+fp pot  rex        -14.4752479  rec         -1.2248764
+fp pot  rvvxcv      -8.5137661  rvexcv      -6.4869383
+fp pot  rvexv       -3.6411473  rvecv       -0.5602898
+fp KS: U    -282.2768869 T     148.8196722 Exc    -15.7001244 EKS   -149.1573391
+fp 4g  ;Anderson n 2 beta 1  sm-dq 2.51e-4  mx loc 5.53e-5  dq 1.75e-6
+fp qvl   6.000000  sm   6.074801  loc  -0.074801  qbg   0.000000 dQ   0.000000
+fp mag    2.00000  sm    1.87214  loc    0.12786
+fp pot  rvxc       -20.7014204  rexc       -15.6996955  rves    -282.2849201
+fp pot  rex        -14.4756538  rec         -1.2240417
+fp pot  rvvxcv      -8.5126974  rvexcv      -6.4861855
+fp pot  rvexv       -3.6417209  rvecv       -0.5593457
+fp evl
+fp evl
+nv nkp    1  ebot   0.3355   qval    6.0000  qbg  0.0000  smr -1.0010
+bz met T  tet F  ef 1.620648  sev 6.731797  zval 6.0 qval 6.0 amom 2.0
+fp evl  0.3355  1.3597  1.4010  1.4486  2.1532  2.1867  2.2041  2.2096
+fp evl  2.2101
+fp evl  0.5676  1.6189  1.6224  1.6347  2.1564  2.1916  2.2050  2.2103
+fp evl  2.2105
+nv nkp    1  ebot   0.3355   qval    6.0000  qbg  0.0000  smr -1.0010
+bz met T  tet F  ef 1.620648  sev 6.731797  zval 6.0 qval 6.0 amom 2.0
+fp Har: U    -282.284920  T     148.826435  sev      6.731797  EH    -149.158181
+fp qvl   5.999999  sm   6.074700  loc  -0.074701  qbg   0.000000 dQ  -0.000001
+fp mag    2.00000  sm    1.87228  loc    0.12772
+fp pot  rvxc       -20.7219041  rexc       -15.7147096  rves    -282.2727870
+fp pot  rex        -14.4813485  rec         -1.2333611
+fp pot  rvvxcv      -8.5353606  rvexcv      -6.5027821
+fp pot  rvexv       -3.6403432  rvecv       -0.5690205
+fp KS: U    -282.2727870 T     148.8285359 Exc    -15.7147096 EKS   -149.1589607
+fp 4g  ;Anderson n 1 beta 1  sm-dq 3.06e-4  mx loc 4.9e-5  dq 1.72e-6
+fp qvl   6.000000  sm   6.074723  loc  -0.074723  qbg   0.000000 dQ   0.000000
+fp mag    2.00000  sm    1.87223  loc    0.12777
+fp pot  rvxc       -20.7116600  rexc       -15.7071867  rves    -282.2768083
+fp pot  rex        -14.4782522  rec         -1.2289346
+fp pot  rvvxcv      -8.5240973  rvexcv      -6.4945199
+fp pot  rvexv       -3.6407634  rvecv       -0.5644406
+fp evl
+fp evl
+nv nkp    1  ebot   0.3355   qval    6.0000  qbg  0.0000  smr -1.0010
+bz met T  tet F  ef 1.622444  sev 6.734122  zval 6.0 qval 6.0 amom 2.0
+fp evl  0.3355  1.3587  1.3876  1.4634  2.1538  2.1872  2.2046  2.2101
+fp evl  2.2106
+fp evl  0.5697  1.6191  1.6258  1.6371  2.1570  2.1923  2.2055  2.2109
+fp evl  2.2110
+nv nkp    1  ebot   0.3355   qval    6.0000  qbg  0.0000  smr -1.0010
+bz met T  tet F  ef 1.622444  sev 6.734122  zval 6.0 qval 6.0 amom 2.0
+fp Har: U    -282.276808  T     148.824296  sev      6.734122  EH    -149.159699
+fp qvl   6.000000  sm   6.074643  loc  -0.074644  qbg   0.000000 dQ   0.000000
+fp mag    2.00000  sm    1.87236  loc    0.12764
+fp pot  rvxc       -20.7418728  rexc       -15.7293798  rves    -282.2689294
+fp pot  rex        -14.4875687  rec         -1.2418111
+fp pot  rvvxcv      -8.5571897  rvexcv      -6.5187937
+fp pot  rvexv       -3.6396855  rvecv       -0.5778934
+fp KS: U    -282.2689294 T     148.8375086 Exc    -15.7293798 EKS   -149.1608006
+fp 4g  ;Anderson n 1 beta 1  sm-dq 3.06e-4  mx loc 4.91e-5  dq 1.79e-6
+fp qvl   6.000000  sm   6.074686  loc  -0.074686  qbg   0.000000 dQ   0.000000
+fp mag    2.00000  sm    1.87230  loc    0.12770
+fp pot  rvxc       -20.7266150  rexc       -15.7181730  rves    -282.2729979
+fp pot  rex        -14.4828605  rec         -1.2353125
+fp pot  rvvxcv      -8.5404275  rvexcv      -6.5065007
+fp pot  rvexv       -3.6401984  rvecv       -0.5710463
+fp evl
+fp evl
+nv nkp    1  ebot   0.3353   qval    6.0000  qbg  0.0000  smr -1.0010
+bz met T  tet F  ef 1.625175  sev 6.737221  zval 6.0 qval 6.0 amom 2.0
+fp evl  0.3353  1.3589  1.3738  1.4771  2.1536  2.1871  2.2043  2.2099
+fp evl  2.2103
+fp evl  0.5723  1.6198  1.6305  1.6389  2.1568  2.1922  2.2053  2.2106
+fp evl  2.2107
+nv nkp    1  ebot   0.3353   qval    6.0000  qbg  0.0000  smr -1.0010
+bz met T  tet F  ef 1.625175  sev 6.737221  zval 6.0 qval 6.0 amom 2.0
+fp Har: U    -282.272998  T     148.830164  sev      6.737221  EH    -149.161007
+fp qvl   6.000000  sm   6.074524  loc  -0.074524  qbg   0.000000 dQ   0.000000
+fp mag    2.00000  sm    1.87250  loc    0.12750
+fp pot  rvxc       -20.7465260  rexc       -15.7327395  rves    -282.2615997
+fp pot  rex        -14.4879166  rec         -1.2448229
+fp pot  rvvxcv      -8.5626285  rvexcv      -6.5227234
+fp pot  rvexv       -3.6387321  rvecv       -0.5811060
+fp KS: U    -282.2615997 T     148.8326340 Exc    -15.7327395 EKS   -149.1617052
+fp 4g  ;Anderson n 1 beta 1  sm-dq 1.65e-4  mx loc 6.68e-5  dq 1.61e-6
+fp qvl   6.000000  sm   6.074543  loc  -0.074543  qbg   0.000000 dQ   0.000000
+fp mag    2.00000  sm    1.87248  loc    0.12752
+fp pot  rvxc       -20.7457642  rexc       -15.7321897  rves    -282.2629718
+fp pot  rex        -14.4878650  rec         -1.2443247
+fp pot  rvvxcv      -8.5617247  rvexcv      -6.5220703
+fp pot  rvexv       -3.6388868  rvecv       -0.5805723
+fp evl
+  LMF  vn 7.00(LMF 7.0)  verb 35
+ special:  APW basis
+ pot:      spin-pol, XC:CA
+ bz:       metal(3), invit 
+bz  nq 1 ( 1 1 1 )  shift  F F F
+dm  L 32 ( 16 16 )  I 0 ( 0 0 )  H 18 ( 9 9 )  N 0
+fp qvl  22.267020  sm  22.341563  loc  -0.074543  qbg   0.000000 dQ  16.267020
+fp mag    2.00000  sm    1.87248  loc    0.12752
+fp pot  rvxc       -23.9489883  rexc       -18.2024698  rves    -261.5161219
+fp pot  rex        -16.2576024  rec         -1.9448674
+fp pot  rvvxcv     -11.7649488  rvexcv      -8.9923505
+fp pot  rvexv       -4.4963945  rvecv       -0.9283920
+fp evl
+fp evl
+nv nkp    1  ebot   0.3708   qval    6.0000  qbg  0.0000  smr -1.0010
+bz met T  tet F  ef 1.610806  sev 6.793656  zval 6.0 qval 6.0 amom 2.0
+fp evl  0.3708  1.3354  1.4013  1.4815  2.1356  2.1823  2.1826  2.1828
+fp evl  2.1828
+fp evl  0.6013  1.6035  1.6181  1.6931  2.1358  2.1824  2.1826  2.1828
+fp evl  2.1828
+nv nkp    1  ebot   0.3708   qval    6.0000  qbg  0.0000  smr -1.0010
+bz met T  tet F  ef 1.610806  sev 6.793656  zval 6.0 qval 6.0 amom 2.0
+fp Har: U    -261.516122  T     112.205992  sev      6.793656  EH    -167.512600
+fp qvl   6.000000  sm   6.053698  loc  -0.053698  qbg   0.000000 dQ   0.000000
+fp mag    2.00000  sm    1.86343  loc    0.13657
+fp pot  rvxc       -21.0874512  rexc       -15.9907206  rves    -283.6995651
+fp pot  rex        -14.7276374  rec         -1.2630832
+fp pot  rvvxcv      -8.8627007  rvexcv      -6.7498822
+fp pot  rvexv       -3.7837732  rvecv       -0.5957210
+fp KS: U    -283.6995651 T     150.5661638 Exc    -15.9907206 EKS   -149.1241219
+fp 4g  ;Anderson n 0 beta 1  sm-dq 0.00163  mx loc 0.00471  dq 1.16e-4
+fp qvl   6.000000  sm   6.053698  loc  -0.053698  qbg   0.000000 dQ   0.000000
+fp mag    2.00000  sm    1.86343  loc    0.13657
+fp pot  rvxc       -21.0874512  rexc       -15.9907206  rves    -283.6995651
+fp pot  rex        -14.7276374  rec         -1.2630832
+fp pot  rvvxcv      -8.8627007  rvexcv      -6.7498822
+fp pot  rvexv       -3.7837732  rvecv       -0.5957210
+fp evl
+fp evl
+nv nkp    1  ebot   0.3153   qval    6.0000  qbg  0.0000  smr -1.0010
+bz met T  tet F  ef 1.596842  sev 6.599156  zval 6.0 qval 6.0 amom 2.0
+fp evl  0.3153  1.3310  1.3365  1.4716  1.9804  2.0145  2.0295  2.0296
+fp evl  2.0304
+fp evl  0.5543  1.5905  1.6032  1.6077  1.9822  2.0193  2.0308  2.0309
+fp evl  2.0310
+nv nkp    1  ebot   0.3153   qval    6.0000  qbg  0.0000  smr -1.0010
+bz met T  tet F  ef 1.596842  sev 6.599156  zval 6.0 qval 6.0 amom 2.0
+fp Har: U    -283.699565  T     150.490304  sev      6.599156  EH    -149.199982
+fp qvl   6.000000  sm   6.065958  loc  -0.065958  qbg   0.000000 dQ   0.000000
+fp mag    2.00000  sm    1.88162  loc    0.11838
+fp pot  rvxc       -20.3255604  rexc       -15.4141576  rves    -280.0999420
+fp pot  rex        -14.1899724  rec         -1.2241852
+fp pot  rvvxcv      -8.2077509  rvexcv      -6.2539543
+fp pot  rvexv       -3.4947765  rvecv       -0.5677183
+fp KS: U    -280.0999420 T     146.3985910 Exc    -15.4141576 EKS   -149.1155086
+fp 4g  ;Anderson n 1 beta 1  sm-dq 0.00118  mx loc 0.00509  dq 2.33e-4
+fp qvl   6.000000  sm   6.057624  loc  -0.057624  qbg   0.000000 dQ   0.000000
+fp mag    2.00000  sm    1.86925  loc    0.13075
+fp pot  rvxc       -20.8292546  rexc       -15.7954375  rves    -282.5058795
+fp pot  rex        -14.5469471  rec         -1.2484904
+fp pot  rvvxcv      -8.6412766  rvexcv      -6.5823339
+fp pot  rvexv       -3.6884950  rvecv       -0.5846002
+fp evl
+fp evl
+nv nkp    1  ebot   0.3289   qval    6.0000  qbg  0.0000  smr -1.0010
+bz met T  tet F  ef 1.620015  sev 6.699219  zval 6.0 qval 6.0 amom 2.0
+fp evl  0.3289  1.3503  1.3557  1.4838  2.1043  2.1361  2.1557  2.1558
+fp evl  2.1562
+fp evl  0.5689  1.6117  1.6284  1.6313  2.1073  2.1411  2.1567  2.1572
+fp evl  2.1573
+nv nkp    1  ebot   0.3289   qval    6.0000  qbg  0.0000  smr -1.0010
+bz met T  tet F  ef 1.620015  sev 6.699219  zval 6.0 qval 6.0 amom 2.0
+fp Har: U    -282.505880  T     149.136190  sev      6.699219  EH    -149.165127
+fp qvl   6.000000  sm   6.071845  loc  -0.071845  qbg   0.000000 dQ   0.000000
+fp mag    2.00000  sm    1.87513  loc    0.12487
+fp pot  rvxc       -20.6346722  rexc       -15.6480575  rves    -281.6915259
+fp pot  rex        -14.4079395  rec         -1.2401181
+fp pot  rvvxcv      -8.4681877  rvexcv      -6.4511632
+fp pot  rvexv       -3.6001560  rvecv       -0.5783515
+fp KS: U    -281.6915259 T     148.1810534 Exc    -15.6480575 EKS   -149.1585300
+fp 4g  ;Anderson n 2 beta 1  sm-dq 3.67e-4  mx loc 0.00316  dq 7.45e-5
+fp qvl   6.000000  sm   6.064391  loc  -0.064391  qbg   0.000000 dQ   0.000000
+fp mag    2.00000  sm    1.87053  loc    0.12947
+fp pot  rvxc       -20.8059115  rexc       -15.7777077  rves    -282.4797721
+fp pot  rex        -14.5298160  rec         -1.2478917
+fp pot  rvvxcv      -8.6164858  rvexcv      -6.5635202
+fp pot  rvexv       -3.6710412  rvecv       -0.5839045
+fp evl
+fp evl
+nv nkp    1  ebot   0.3310   qval    6.0000  qbg  0.0000  smr -1.0010
+bz met T  tet F  ef 1.623351  sev 6.713058  zval 6.0 qval 6.0 amom 2.0
+fp evl  0.3310  1.3533  1.3566  1.4867  2.1207  2.1523  2.1722  2.1723
+fp evl  2.1728
+fp evl  0.5714  1.6141  1.6327  1.6344  2.1237  2.1574  2.1733  2.1737
+fp evl  2.1737
+nv nkp    1  ebot   0.3310   qval    6.0000  qbg  0.0000  smr -1.0010
+bz met T  tet F  ef 1.623351  sev 6.713058  zval 6.0 qval 6.0 amom 2.0
+fp Har: U    -282.479772  T     149.094169  sev      6.713058  EH    -149.163311
+fp qvl   6.000000  sm   6.072296  loc  -0.072296  qbg   0.000000 dQ   0.000000
+fp mag    2.00000  sm    1.87428  loc    0.12572
+fp pot  rvxc       -20.6719267  rexc       -15.6762433  rves    -281.8764097
+fp pot  rex        -14.4341498  rec         -1.2420935
+fp pot  rvvxcv      -8.4999026  rvexcv      -6.4751726
+fp pot  rvexv       -3.6130257  rvecv       -0.5797027
+fp KS: U    -281.8764097 T     148.3921708 Exc    -15.6762433 EKS   -149.1604822
+fp 4g  ;Anderson n 2 beta 1  sm-dq 2.09e-4  mx loc 0.00184  dq 4.69e-5
+fp qvl   6.001894  sm   6.075269  loc  -0.073375  qbg   0.000000 dQ   0.001894
+fp mag    2.00000  sm    1.87263  loc    0.12737
+fp pot  rvxc       -20.7479469  rexc       -15.7337423  rves    -282.2380680
+fp pot  rex        -14.4872883  rec         -1.2464540
+fp pot  rvvxcv      -8.5652679  rvexcv      -6.5246335
+fp pot  rvexv       -3.6390191  rvecv       -0.5828197
+fp evl
+fp evl
+nv nkp    1  ebot   0.3350   qval    6.0000  qbg  0.0000  smr -1.0010
+bz met T  tet F  ef 1.629574  sev 6.740109  zval 6.0 qval 6.0 amom 2.0
+fp evl  0.3350  1.3583  1.3589  1.4927  2.1503  2.1811  2.2012  2.2012
+fp evl  2.2018
+fp evl  0.5763  1.6189  1.6408  1.6411  2.1527  2.1867  2.2022  2.2023
+fp evl  2.2024
+nv nkp    1  ebot   0.3350   qval    6.0000  qbg  0.0000  smr -1.0010
+bz met T  tet F  ef 1.629574  sev 6.740109  zval 6.0 qval 6.0 amom 2.0
+fp Har: U    -282.238068  T     148.807861  sev      6.740109  EH    -149.163950
+fp qvl   6.000000  sm   6.074004  loc  -0.074004  qbg   0.000000 dQ   0.000000
+fp mag    2.00000  sm    1.87262  loc    0.12738
+fp pot  rvxc       -20.7485563  rexc       -15.7342180  rves    -282.2677692
+fp pot  rex        -14.4882276  rec         -1.2459904
+fp pot  rvvxcv      -8.5644826  rvexcv      -6.5240649
+fp pot  rvexv       -3.6387273  rvecv       -0.5822766
+fp KS: U    -282.2677692 T     148.8401235 Exc    -15.7342180 EKS   -149.1618637
+fp 4g  ;Anderson n 2 beta 1  sm-dq 6.33e-5  mx loc 1.08e-4  dq 2.18e-6
+fp qvl   6.000116  sm   6.073987  loc  -0.073871  qbg   0.000000 dQ   0.000116
+fp mag    2.00000  sm    1.87265  loc    0.12735
+fp pot  rvxc       -20.7470483  rexc       -15.7330747  rves    -282.2592287
+fp pot  rex        -14.4871107  rec         -1.2459640
+fp pot  rvvxcv      -8.5632363  rvexcv      -6.5231185
+fp pot  rvexv       -3.6382426  rvecv       -0.5822869
+fp evl
+fp evl
+nv nkp    1  ebot   0.3352   qval    6.0000  qbg  0.0000  smr -1.0010
+bz met T  tet F  ef 1.629640  sev 6.741111  zval 6.0 qval 6.0 amom 2.0
+fp evl  0.3352  1.3592  1.3592  1.4923  2.1546  2.1855  2.2065  2.2066
+fp evl  2.2070
+fp evl  0.5763  1.6190  1.6409  1.6410  2.1577  2.1908  2.2075  2.2079
+fp evl  2.2079
+nv nkp    1  ebot   0.3352   qval    6.0000  qbg  0.0000  smr -1.0010
+bz met T  tet F  ef 1.629640  sev 6.741111  zval 6.0 qval 6.0 amom 2.0
+fp Har: U    -282.259229  T     148.830297  sev      6.741111  EH    -149.162006
+fp qvl   6.000000  sm   6.073957  loc  -0.073957  qbg   0.000000 dQ   0.000000
+fp mag    2.00000  sm    1.87263  loc    0.12737
+fp pot  rvxc       -20.7488524  rexc       -15.7344440  rves    -282.2673981
+fp pot  rex        -14.4884588  rec         -1.2459853
+fp pot  rvvxcv      -8.5648314  rvexcv      -6.5243306
+fp pot  rvexv       -3.6389120  rvecv       -0.5822692
+fp KS: U    -282.2673981 T     148.8399676 Exc    -15.7344440 EKS   -149.1618746
+fp 4g  ;Anderson n 1 beta 1  sm-dq 2.43e-5  mx loc 1.75e-5  dq 7.6e-7
+fp qvl   6.000003  sm   6.073946  loc  -0.073943  qbg   0.000000 dQ   0.000003
+fp mag    2.00000  sm    1.87263  loc    0.12737
+fp pot  rvxc       -20.7489881  rexc       -15.7345468  rves    -282.2677950
+fp pot  rex        -14.4885553  rec         -1.2459914
+fp pot  rvvxcv      -8.5649579  rvexcv      -6.5244263
+fp pot  rvexv       -3.6389662  rvecv       -0.5822751
+fp evl
+fp evl
+nv nkp    1  ebot   0.3351   qval    6.0000  qbg  0.0000  smr -1.0010
+bz met T  tet F  ef 1.629472  sev 6.740392  zval 6.0 qval 6.0 amom 2.0
+fp evl  0.3351  1.3591  1.3591  1.4921  2.1540  2.1852  2.2062  2.2062
+fp evl  2.2066
+fp evl  0.5762  1.6189  1.6407  1.6407  2.1573  2.1905  2.2071  2.2076
+fp evl  2.2076
+nv nkp    1  ebot   0.3351   qval    6.0000  qbg  0.0000  smr -1.0010
+bz met T  tet F  ef 1.629472  sev 6.740392  zval 6.0 qval 6.0 amom 2.0
+fp Har: U    -282.267795  T     148.840451  sev      6.740392  EH    -149.161891
+fp qvl   6.000000  sm   6.073903  loc  -0.073903  qbg   0.000000 dQ   0.000000
+fp mag    2.00000  sm    1.87268  loc    0.12732
+fp pot  rvxc       -20.7463168  rexc       -15.7325258  rves    -282.2544550
+fp pot  rex        -14.4866702  rec         -1.2458556
+fp pot  rvvxcv      -8.5626962  rvexcv      -6.5227141
+fp pot  rvexv       -3.6380560  rvecv       -0.5821827
+fp KS: U    -282.2544550 T     148.8251037 Exc    -15.7325258 EKS   -149.1618772
+fp 4g  ;Anderson n 1 beta 1  sm-dq 3.28e-5  mx loc 1.38e-5  dq 9.13e-7
+fp qvl   6.000000  sm   6.073933  loc  -0.073933  qbg   0.000000 dQ   0.000000
+fp mag    2.00000  sm    1.87265  loc    0.12735
+fp pot  rvxc       -20.7476781  rexc       -15.7335559  rves    -282.2612204
+fp pot  rex        -14.4876317  rec         -1.2459241
+fp pot  rvvxcv      -8.5638553  rvexcv      -6.5235917
+fp pot  rvexv       -3.6385234  rvecv       -0.5822276
+fp evl
+fp evl
+nv nkp    1  ebot   0.3351   qval    6.0000  qbg  0.0000  smr -1.0010
+bz met T  tet F  ef 1.629560  sev 6.740785  zval 6.0 qval 6.0 amom 2.0
+fp evl  0.3351  1.3591  1.3591  1.4922  2.1547  2.1859  2.2068  2.2069
+fp evl  2.2073
+fp evl  0.5762  1.6190  1.6408  1.6409  2.1580  2.1911  2.2078  2.2082
+fp evl  2.2083
+nv nkp    1  ebot   0.3351   qval    6.0000  qbg  0.0000  smr -1.0010
+bz met T  tet F  ef 1.629560  sev 6.740785  zval 6.0 qval 6.0 amom 2.0
+fp Har: U    -282.261220  T     148.832898  sev      6.740785  EH    -149.161879
+fp qvl   6.000000  sm   6.073938  loc  -0.073938  qbg   0.000000 dQ   0.000000
+fp mag    2.00000  sm    1.87265  loc    0.12735
+fp pot  rvxc       -20.7478097  rexc       -15.7336552  rves    -282.2622205
+fp pot  rex        -14.4877254  rec         -1.2459298
+fp pot  rvvxcv      -8.5639462  rvexcv      -6.5236605
+fp pot  rvexv       -3.6385575  rvecv       -0.5822315
+fp KS: U    -282.2622205 T     148.8339970 Exc    -15.7336552 EKS   -149.1618786
+fp 4g  ;Anderson n 1 beta 1  sm-dq 8.24e-7  mx loc 1.27e-6  dq 4.68e-8
+fp qvl   6.000000  sm   6.073937  loc  -0.073937  qbg   0.000000 dQ   0.000000
+fp mag    2.00000  sm    1.87265  loc    0.12735
+fp pot  rvxc       -20.7477400  rexc       -15.7336026  rves    -282.2618766
+fp pot  rex        -14.4876764  rec         -1.2459262
+fp pot  rvvxcv      -8.5638868  rvexcv      -6.5236156
+fp pot  rvexv       -3.6385338  rvecv       -0.5822290
+fp evl
+fp evl
+nv nkp    1  ebot   0.3351   qval    6.0000  qbg  0.0000  smr -1.0010
+bz met T  tet F  ef 1.629560  sev 6.740786  zval 6.0 qval 6.0 amom 2.0
+fp evl  0.3351  1.3591  1.3591  1.4922  2.1547  2.1859  2.2068  2.2068
+fp evl  2.2073
+fp evl  0.5762  1.6190  1.6408  1.6409  2.1580  2.1911  2.2078  2.2082
+fp evl  2.2083
+nv nkp    1  ebot   0.3351   qval    6.0000  qbg  0.0000  smr -1.0010
+bz met T  tet F  ef 1.629560  sev 6.740786  zval 6.0 qval 6.0 amom 2.0
+fp Har: U    -282.261877  T     148.833600  sev      6.740786  EH    -149.161879
+fp qvl   6.000000  sm   6.073936  loc  -0.073936  qbg   0.000000 dQ   0.000000
+fp mag    2.00000  sm    1.87265  loc    0.12735
+fp pot  rvxc       -20.7477607  rexc       -15.7336182  rves    -282.2619376
+fp pot  rex        -14.4876906  rec         -1.2459276
+fp pot  rvvxcv      -8.5639069  rvexcv      -6.5236307
+fp pot  rvexv       -3.6385435  rvecv       -0.5822302
+fp KS: U    -282.2619376 T     148.8336771 Exc    -15.7336182 EKS   -149.1618787
+fp 4g  ;Anderson n 1 beta 1  sm-dq 2.75e-7  mx loc 1.45e-7  dq 7.8e-9
